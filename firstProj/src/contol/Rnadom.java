@@ -1,4 +1,4 @@
-package contorl;
+package contol;
 
 public class Rnadom {
 

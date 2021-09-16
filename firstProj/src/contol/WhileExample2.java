@@ -1,4 +1,4 @@
-package contorl;
+package contol;
 
 import java.util.Scanner;
 

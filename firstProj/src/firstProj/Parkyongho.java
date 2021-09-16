@@ -1,4 +1,4 @@
-package firstProject;
+package firstProj;
 import java.util.Scanner;
 public class Parkyongho {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package firstProject;
+package firstProj;
 import java.util.Scanner;
 public class ScannerExample {
 	public static void main (String[] args) {

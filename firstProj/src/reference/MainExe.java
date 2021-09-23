@@ -13,7 +13,7 @@ public class MainExe {
 						int size = ceratstudent();
 						scores = new int[size];
 						
-					}else if (choice == 2); {
+					}else if (choice == 2) {
 						input(scores);
 					
 					}else if (choice ==3) {
@@ -31,7 +31,7 @@ public class MainExe {
 		System.out.println("1학생인원,2학생이름,3전체리스트,4종료");
 	}
 
-	public static void ceratstudent() {
+	public static int ceratstudent() {
 				int cnt = readint("학생수입력");
 				return cnt;
 	}

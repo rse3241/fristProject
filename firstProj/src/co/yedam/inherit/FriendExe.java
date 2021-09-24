@@ -35,7 +35,7 @@ public class FriendExe {
 			{
 				if (menu == 1) {
 					System.out.println("등록");
-
+					addFriend();
 				} else if (menu == 2) {
 					System.out.println("조회");
 					showList();
@@ -51,7 +51,7 @@ public class FriendExe {
 				}
 			}
 			System.out.println("끝");
-		}
+		} 
 	}
 
 	private void addFriend() {//생성

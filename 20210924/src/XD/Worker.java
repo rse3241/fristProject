@@ -17,5 +17,11 @@ public class Worker extends Person {
 	public void setCompany(String company) {
 		this.company = company;
 	}
+
+	@Override
+	public String toString() {
+		return "Worker [company=" + company + ", name=" + name + ", gender=" + gender + ", phone=" + phone
+				+ ", getCompany()=" + getCompany() + "]";
+	}
 	
 }

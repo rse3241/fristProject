@@ -13,6 +13,12 @@ public class Student extends Person {
 
 	public String school;
 
+	@Override
+	public String toString() {
+		return "Student [school=" + school + ", name=" + name + ", gender=" + gender + ", phone=" + phone
+				+ ", getSchool()=" + getSchool() + "]";
+	}
+
 	public String getSchool() {
 		return school;
 	}

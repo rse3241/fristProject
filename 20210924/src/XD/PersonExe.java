@@ -1,9 +1,10 @@
 package XD;
 
 public class PersonExe {
-	static PersonExe singleton = new PersonExe();
-	public static Person[] PersonArry = new Person[100];
-//?
+	static PersonExe singleton=new PersonExe();
+	public static Person[] persons;
+	
+	
 	public static PersonExe getInstance() {
 		return singleton; //의문
 	}
@@ -14,10 +15,10 @@ public class PersonExe {
 			System.out.println("1.사람추가 2.사람조회 3.수정 4.삭제 5.종료");
 			int menu = ScanUtil.readInt("선택하세요");
 			if (menu == 1) {
-				addPerson();
+				
 			}
 			if (menu == 2) {
-
+				showlist();
 			}
 			if (menu == 3) {
 
@@ -51,23 +52,27 @@ public class PersonExe {
 		}
 		
 		
-		for (int i = 0; i < PersonArry.length; i++) {
-			if (PersonArry[i] == null) {//?
-				PersonArry[i] = person;
-				System.out.println("결과: 사람등록완료");
+		for (int i = 0; i < persons.length; i++) {
+			if (persons[i] == null) {
+				
+			
+				
+			}System.out.println("결과: 사람등록완료");
 				break;
 			}
 		}
 
-	}
+	
 	public void showlist() {
-		String gender = ScanUtil.readStr("조회할 성별 입력");
-		for ( int i = 0; i < PersonArry.length; i++){
-			if (PersonArry[i] != null) {
-				
-			}
+		System.out.println("조회합니다");
+	for(int i= 0; i < persons.length; i++) {
+		
+		System.out.println (persons[i].toString());
+		System.out.println("조회완료");
 		}
-		
-		
 	}
 }
+
+		
+	
+
